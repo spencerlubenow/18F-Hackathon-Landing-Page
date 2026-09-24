@@ -1,0 +1,164 @@
+{
+  "site": {
+    "title": "Celonis Automation Hackathon Prep Site",
+    "tagline": "Turn process insights into execution"
+  },
+  "auth": {
+    "loginTitle": "Celonis Automation Hackathon Prep Site",
+    "loginSubtitle": "Turn process insights into execution",
+    "passwordLabel": "Password",
+    "passwordPlaceholder": "Enter password",
+    "submitButton": "Access Portal"
+  },
+  "header": {
+    "title": "Hackathon Prep (15 Mins)",
+    "description": "See below for a primer on Celonis automation capabilties and submit your use case ideas!"
+  },
+  "navigation": [
+    { "label": "Format", "href": "#format" },
+    { "label": "Learn", "href": "#education" },
+    { "label": "Submit Ideas", "href": "#submit-ideas" }
+  ],
+  "format": {
+    "title": "Hackathon Format",
+    "description": "A half-day, hands-on experience building automation solutions with Celonis experts",
+    "timeline": [
+      {
+        "time": "9:00 - 10:00 AM",
+        "title": "Intro to Orchestration and Action Flows",
+        "description": "Learn the fundamentals of Celonis Orchestration and how to build automation workflows with Action Flows"
+      },
+      {
+        "time": "10:00 AM - 12:00 PM",
+        "title": "Breakout Sessions by Team",
+        "description": "Work with Celonis SMEs in your assigned track to build one automation use case. If your team has multiple ideas, we'll help you prioritize based on complexity and potential value"
+      },
+      {
+        "time": "12:00 - 1:00 PM",
+        "title": "Lunch + Presentations",
+        "description": "Enjoy lunch while teams present their completed use cases to the group"
+      },
+      {
+        "time": "1:00 - 1:30 PM",
+        "title": "Wrap Up & Next Steps",
+        "description": "Celebrate your work and learn about next steps for deploying automation in across your processes"
+      }
+    ]
+  },
+  "education": {
+    "title": "Learning Materials",
+    "celonis101": {
+      "title": "Celonis 101",
+      "videoUrl": "https://www.youtube.com/embed/YR5oRJGhJYg",
+      "description": "Celonis extracts real-time data from your source systems and creates a dynamic and holistic representation of how your organization operates (i.e., digital twin).\n\nYour process data is enriched with business knowledge (e.g., your goals, industry best practices) as well as process and decision intelligence (e.g., recommendations to improve process performance) This foundation allows you to:\n\n• Analyze your end-to-end processes across departments, identify the most impactful improvement opportunities and their root causes.\n• Design your optimal process flows, simulate the outcomes, and monitor process adherence.\n• Operate entire processes to run autonomously by orchestrating people, automations, and AI agents. Ultimately, create value with custom or pre-built solutions and track value realization over time!"
+    },
+    "processOrchestration": {
+      "title": "Process Orchestration & Automation",
+      "intro": "The automation capabilities of the Celonis Process Intelligence Platform enable you to leverage real-time process data to fix inefficiencies and save time! We have the following tools in Celonis:\n\nAction Flows allow you to automate short-lived, \"fire-and-target\" tasks which are based on discrete rules that you define.\n\nOrchestration Engine, on the other hand, can coordinate a series of process steps, including human input, AI Agents, dynamic decisions, and automated tasks.",
+      "actionFlows": {
+        "title": "Boost Efficiency with Action Flows",
+        "intro": "Ask yourself which of your processes:",
+        "questions": [
+          "... are repetitive and carried out manually?",
+          "... follow a certain pattern that could easily be written down step-by-step?",
+          "... are executed multiple times per day but don't involve any decision-making?"
+        ],
+        "conclusion": "These processes are potential candidates to be automated with Action Flows! You can easily create automated routines and let them run from within the Celonis Process Intelligence Platform.\n\nLet's watch examples of order management Action Flows:",
+        "videoUrl": "/videos/action-flows-demo.mp4"
+      },
+      "orderManagement": {
+        "title": "Order Management: Action Flows Examples",
+        "intro": "Here are some top use cases for Order Management automation with Action Flows:",
+        "useCases": [
+          {
+            "number": "01",
+            "title": "On time delivery",
+            "opportunities": [
+              "Lack of prioritization? >> Alert about due orders",
+              "Shipping & Carrier issues? >> Update delivery dates",
+              "Shipping & Carrier issues? >> Alert for specific carriers and routes with repeated delivery delays despite on time shipping",
+              "Shipping & Carrier issues? >> Update storage location"
+            ]
+          },
+          {
+            "number": "02",
+            "title": "Touchless orders",
+            "opportunities": [
+              "Manual creation of document? >> Create new sales order from file or Create delivery documents",
+              "Manual rework of orders? >> Parse customer emails and update sales orders"
+            ]
+          },
+          {
+            "number": "03",
+            "title": "Order blocks",
+            "opportunities": [
+              "Order blocked? >> Remove delivery blocks - Automatically remove certain blocks based on set characteristics that prevent the delivery doc creation for an item or order",
+              "Order blocked? >> Release billing blocks - Automatically releases billing block that prevents invoice creation for an item or order",
+              "Order blocked? >> Release credit holds - Automatically releases credit holds for sales orders that prevent delivery doc creation for all in process orders for an entire customer"
+            ]
+          },
+          {
+            "number": "04",
+            "title": "In Full Delivery & Rejections",
+            "opportunities": [
+              "Customer cancellation? >> Check incoming sales orders for errors - Automatically checks incoming sales orders for errors and automatically confirms it if all all information is correct",
+              "Internal cancellation? >> Report to inform supply planning"
+            ]
+          },
+          {
+            "number": "05",
+            "title": "Unbilled Orders",
+            "opportunities": [
+              "Manual creation of invoices? >> Auto-creation of invoices via Action Flow - Automatically generate and send out invoices as soon as an order is received or as soon as a shipment is created."
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "submitIdeas": {
+    "title": "Submit Your Ideas",
+    "description": "Have a compelling use case for the hackathon? We'd love to hear it.",
+    "googleForm": {
+      "enabled": true,
+      "title": "Google Form",
+      "description": "Submit your use case idea using the form below",
+      "embedUrl": "https://docs.google.com/forms/d/e/1FAIpQLSf4gIPBDUE7y2iJjz0ZYAlg2zjtDGvNvv0LtoWVbo_xwMTGzg/viewform?embedded=true"
+    }
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "items": [
+      {
+        "question": "What should I prepare before the hackathon?",
+        "answer": "Review the educational materials, watch the videos, and submit any use case ideas useing the form."
+      },
+      {
+        "question": "Do I need to be a Celonis expert to attend?",
+        "answer": "No! Nasic familarity with Celonis and the existing dashboards will suffice. You will provide direciton on the use case, and the Celonis team will handle all techincal configuration."
+      },
+      {
+        "question": "Is the data we'd need for my use case idea already in Celonis?",
+        "answer": "Please include description of key data points when submitting the use case form. We can spot check ahead of the hackathon to determine availability."
+      }
+    ]
+  },
+  "contacts": {
+    "title": "Event Contacts",
+    "description": "Have questions? Reach out to the organizers:",
+    "items": [
+      {
+        "name": "Spencer Lubenow",
+        "email": "s.lubenow@celonis.com"
+      },
+      {
+        "name": "Tracy Neal",
+        "email": ""
+      }
+    ]
+  },
+  "footer": {
+    "copyright": "2026 Celonis Hackathon",
+    "logoutText": "Logout"
+  }
+}
