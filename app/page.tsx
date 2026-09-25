@@ -1,8 +1,7 @@
 'use client';
 
 import { useState } from 'react';
-import content from '@/data/content.json';
-
+import content from '../data/content.json';
 const SITE_PASSWORD = process.env.NEXT_PUBLIC_SITE_PASSWORD || 'goldenpear';
 
 export default function Home() {
